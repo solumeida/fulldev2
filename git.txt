@@ -30,3 +30,6 @@ git log ->  -> histórico de commit do projeto
 
 remover arquivos da stage area 
 use "git rm --cached <file>..." to unstage
+
+Modificando a mensagem do ultimo commit 
+git commit -"mensagem modificada" --amend
