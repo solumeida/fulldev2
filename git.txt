@@ -1,0 +1,35 @@
+# -> https://app.rocketseat.com.br/
+
+Conhecendo o Git 
+Controle de versão 
+ -> commit -> commit -> |> branch -> linha do tempo 
+                            main 
+
+
+projeto -> pasta e arquivo                             
+
+modificações -> stage area -> commit
+  local <| repository  |> remote 
+     pc <| repository  |>  github 
+
+
+
+
+configurando credencias 
+
+git config --global user.name ""
+git config --global user.email "email da conta github"
+
+Git comandos para trabalhar com repositórios local
+
+git int 		-> inica o git (repository) no seu projeto
+git status  -> Verficar alterações de pastas e arquivos no projeto 
+git add .   -> adiciona todos os arquivos e pastas modificados, ao stage are 
+git commit -m "message here" -> cria e descreve um pontoe na historia
+git log ->  -> histórico de commit do projeto
+
+remover arquivos da stage area 
+use "git rm --cached <file>..." to unstage
+
+Modificando a mensagem do ultimo commit 
+git commit -"mensagem modificada" --amend
