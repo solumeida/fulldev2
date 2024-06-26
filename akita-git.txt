@@ -1,0 +1,83 @@
+
+<!-- * Mini tutorial Akita git ninja advangens 
+           -> https://www.youtube.com/watch?v=6OokP-NE49k
+					 * Um registro preciso no tempo!
+* -->
+
+#01 A principal função de um repositório Git
+                                  -> registro preciso da história!
+
+Corrigindo uma mensagem do ultimo commit 
+                              https://youtu.be/6OokP-NE49k?t=200
+
+ git commit -m "msn corrigida" --amend                        
+
+Desfazendo x commits toscos...
+
+git reset --soft HEAD~3 <exclui commits do 0 a 2> sem perder as modificações 
+                   -> https://youtu.be/6OokP-NE49k?t=235
+
+
+
+
+
+
+a HEAD -> ultimo commit 
+
+ git reset --soft 991b90616f00a7cbebc4080a948f0429fc725975
+
+
+Usando Git Direito | Limpando seus Commits!
+                  -> https://www.youtube.com/watch?v=6OokP-NE49k
+
+
+Maquina do Tempo - GIT   -> https://youtu.be/6OokP-NE49k?t=102
+
+
+ 
+Excluindo commits sem perder modificações 
+git reset --soft xxx 
+
+
+git reset -> https://youtu.be/6OokP-NE49k?t=284
+
+
+GIT REBASE -I -> interativa! -> https://youtu.be/6OokP-NE49k?t=361 retornar aqui.. 
+
+git rebase -i HEAD~x        
+ edit -> mudar msn
+ squash -> amassar 
+pick 56878c1 fixing
+squash  f9a2c49 fixing
+squash  d82f192 fixing
+squash  2334f05 fixing
+
+continuar -> https://youtu.be/6OokP-NE49k?t=454
+
+Removendo arquivo/modificações do add - corrente (staging -> onde ficar os add's antes do commit)
+
+                        -> https://youtu.be/6OokP-NE49k?t=447
+												 
+o problema do git add . -> https://youtu.be/6OokP-NE49k?t=472		
+
+
+Removendo uma arquivo do Staging -> https://youtu.be/6OokP-NE49k?t=553
+git reset -- nome do arquivo 
+
+removendo varios de forma interativa 
+git add i -> d interativo ↓
+
+*** Commands ***
+  1: status       2: update       3: revert       4: add untracked
+  5: patch        6: diff         7: quit         8: helpf
+What now> 3
+
+
+Modificações no mesmo arquivo 
+
+continua -> https://youtu.be/6OokP-NE49k?t=615
+
+
+
+
+
