@@ -33,3 +33,6 @@ use "git rm --cached <file>..." to unstage
 
 Modificando a mensagem do ultimo commit 
 git commit -"mensagem modificada" --amend
+
+git pull -> carrega (pucha) dados do repositório remoto no repositório local
+git push -> envia (empurra) dados do repositório local para o repositório remoto 
