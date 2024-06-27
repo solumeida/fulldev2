@@ -1,4 +1,5 @@
 # -> https://app.rocketseat.com.br/
+
 Conhecendo o Git 
 Controle de versão 
  -> commit -> commit -> |> branch -> linha do tempo 
@@ -12,37 +13,98 @@ modificações -> stage area -> commit
      pc <| repository  |>  github 
 
 
-# Credencias Git 
 
-->  configurando credencias 
+
+configurando credencias 
 
 git config --global user.name ""
 git config --global user.email "email da conta github"
 
 Git comandos para trabalhar com repositórios local
 
-git int 		-> inicia um git (repository) no seu projeto
-git status  -> Verificar alterações de pastas e arquivos no projeto 
+git int 		-> inica o git (repository) no seu projeto
+git status  -> Verficar alterações de pastas e arquivos no projeto 
 git add .   -> adiciona todos os arquivos e pastas modificados, ao stage are 
 git commit -m "message here" -> cria e descreve um pontoe na historia
 git log ->  -> histórico de commit do projeto
 
-stage area 
 remover arquivos da stage area 
 use "git rm --cached <file>..." to unstage
 
-arquivo modificado!
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." ↓ to discard changes in working directory)
-                               #-> descarta a ultima alteração
-
-primeiro commit 
-   -> git commit -m "initial commit"
-   corrigindo msn do commit  -> git commit -m "msn corrigida" --amend   
-
-   git log -> para sair do git log tecle q
+Modificando a mensagem do ultimo commit 
+git commit -"mensagem modificada" --amend
 
 
-  Navegar pelos commit 
+git log -> q pra sair do git log 
+
+retornando ao commit anterior passado 
+git checkout id .. 288912ae655840b162fd6a4f0b05cc998d5d8c8e
+
+retornado ao tempo presente 
+git checkout branch principal main ou master 
+
+git checkout master 
+
+
+recuperar arquivo deletado! (já commitado)
+
+git checkout id do commit da onde deseja recuperar o arquivo.. -- arquivo.ttt
+ git checkout  53781b7326f1.. --  git.txt
+  o git recupera o arquivo e o coloca devolta no stage area...
+
+arquivo deletado que não foi colocado no stage area ou commitado
+git restore arquivo..
+
+
+git pull -> baixa (puxa) modificações do repositório remoto para repositório local
+git push -> envia (empurra) as modificações locais para o repositório remoto
+
+
+Utilizando o Github como um controle de versão completo
+No github com atalho .(final) abre uma interface como do vscode, onde é possível editar o projeto...
+ -> https://app.rocketseat.com.br/classroom/versionamento-de-codigo/group/conhecendo-o-github/lesson/utilizando-o-github-como-um-controle-de-versao-completo
+
+
+ -> https://www.fronteditor.dev/
+ # HTML 
+ Hypertext -> Hipertexto  -> links 
+ markup    -> Marcaçõa -> tags
+ Language  -> Linguagem
+
+ # Cometários  -> são ignorados -> 
+      <!-- comentários HTML -->
+
+ # Anatomia das Tags
+   Markup -> tags 
+     <h1> Título I <h1/>   <!-- tag Head 1 -->
+
+     tags podem ter atributos 
+      <h1 id="title1"> Titúlo 1</h1>
+
+    pode ter tag sem conteúdo
+     elementos vazios
+      não possuem contúdo
+      poderão conter atributos
+      <img src="" alt=""/>
+
+      tags sem conteúdo e sem atributos 
+      <br/> quebra de linha
+
+      <p> paragrafo (              )  espaços e 
+      quebra de linhas serão ignorados! </P>
+
+      codígo para inserir espaço em texto (&nbsp;) => um espaço
+      <br/> um quebra de linha
+
+      Fluxo HTML
+        <p>-----</p> um bloco 
+        <p>-----</p> outro bloco 
+        um abaixo do outro ... nem todas tags funcionam assim!
+
+        <a href="#">link1</a>
+        Mesmo estando um a baixo do outro o Html vai colocanos inline -> na mesma linha
+
+        <a href="#">link2</a>
+
+       Aninhamento de Tags
+ 
