@@ -97,14 +97,32 @@ No github com atalho .(final) abre uma interface como do vscode, onde é possív
       <br/> um quebra de linha
 
       Fluxo HTML
-        <p>-----</p> um bloco 
-        <p>-----</p> outro bloco 
+
+  <!-- Fluxo HTML
+     * block (um abaixo do outro)
+     * inline (um ao lado do outro mesma linha)
+   -->
+
+        <p>--um bloco--</p>   <!-- block -->
+        <p>--outro bloco--</p>  
         um abaixo do outro ... nem todas tags funcionam assim!
 
-        <a href="#">link1</a>
+        <a href="#">link1</a>   <!-- inline -->
         Mesmo estando um a baixo do outro o Html vai colocanos inline -> na mesma linha
 
         <a href="#">link2</a>
 
        Aninhamento de Tags
- 
+
+ <!-- Aninhamento de Tags 
+  tags dentro de outras!! pai -> filhas
+ -->
+
+
+ <p>Lorem ipsum sit amet, <em>consectetur</em> <strong>adipiscing</strong> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+  <code></code> mostra o conteúdo com formato diferente 
+  <!-- Caracteres Reservados -->
+<p> escapando o abre paragrafo
+  <code>&lt;p&gt;</code> 
+</p>
