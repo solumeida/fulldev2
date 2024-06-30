@@ -126,3 +126,26 @@ No github com atalho .(final) abre uma interface como do vscode, onde é possív
 <p> escapando o abre paragrafo
   <code>&lt;p&gt;</code> 
 </p>
+
+atributos Globais
+-> https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes
+
+ class * atributo global usada para classificar elementos
+   <div class="produto"> Cigarro </div>
+   <div class="produto calçados">   Tênis </div>
+ * <div class="produto↓ camisetas"> Camisa </div>
+            #    separado por espaço -> como uma segunda classificação
+    -> essas classificações podem ser tratadas no javascript/css
+        * produto   3 elementos 
+        * camisetas 1 elemento
+        * calçados  1 elemento
+
+# Atributo data-.. (-alguma coisa)  
+<div data-id="1234"> bla bla </div>
+      * depois do - qualquer coisa (sem espaços ou Caracteres especiais ou números)
+-> essas classificações depois do - podem ser tratadas no javascript/css
+            
+#Atributo global style     
+   <div style="color:blue">asdf</div>     
+      é melhor evitar o uso dessa tag...
+       o estilo aplicado dessa forma vai sobrepor qualquer outro!
