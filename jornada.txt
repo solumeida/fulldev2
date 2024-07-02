@@ -9,8 +9,8 @@ Controle de versão
 projeto -> pasta e arquivo                             
 
 modificações -> stage area -> commit
-  local <| repository  |> remote 
-     pc <| repository  |>  github 
+  local <|- repository -|> remote 
+     pc <|- repository -|> github 
 
 
 
@@ -22,8 +22,8 @@ git config --global user.email "email da conta github"
 
 Git comandos para trabalhar com repositórios local
 
-git int 		-> inica o git (repository) no seu projeto
-git status  -> Verficar alterações de pastas e arquivos no projeto 
+git int 		-> inicia o git (repository) no seu projeto
+git status  -> Verificar alterações de pastas e arquivos no projeto 
 git add .   -> adiciona todos os arquivos e pastas modificados, ao stage are 
 git commit -m "message here" -> cria e descreve um pontoe na historia
 git log ->  -> histórico de commit do projeto
