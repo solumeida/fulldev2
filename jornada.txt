@@ -149,3 +149,7 @@ atributos Globais
    <div style="color:blue">asdf</div>     
       é melhor evitar o uso dessa tag...
        o estilo aplicado dessa forma vai sobrepor qualquer outro!
+
+
+       Títulos e parágrafos
+titulos -> h1 ... h6 
