@@ -153,3 +153,16 @@ atributos Globais
 
        Títulos e parágrafos
 titulos -> h1 ... h6 
+
+h1 por pagina os demais serão subtítulos
+
+Formatações básicas
+ * strong (importância)
+ * em     (importância)
+ * mark   (relevância)
+ * s      (riscado)
+
+ Listas
+ * <ol> Ordenadas </ol>
+ * <ul>Não Ordenadas</ul>
+ ul 
