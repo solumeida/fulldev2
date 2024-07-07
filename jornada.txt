@@ -166,3 +166,17 @@ Formatações básicas
  * <ol> Ordenadas </ol>
  * <ul>Não Ordenadas</ul>
  ul 
+
+ # Hiperlink
+     * href -> atributo fundamental para
+       * url, fragmento ↓
+          -> (#+identificador qualquer) aponta para um fragmento da mesma url
+       * target ='_blank' -> abre o link em nova janela
+         -> https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a
+         * rel="noopener" -> usado junto a target ='_blank' por questões de segurança 
+            !-> https://wpsamurai.com.br/o-que-e-relnoopener-e-qual-seu-impacto/
+
+      # URL |> Uniform Resource Locator 
+      # Fragmento  uma parte específica de uma pagina de um site
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/#target
