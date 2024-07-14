@@ -1,0 +1,71 @@
+<!-- 
+  # Semântica
+  -> https://app.rocketseat.com.br/classroom/iniciando-o-html-e-css-2/group/elementos-de-conteudo/lesson/semantica-1
+    * dar significado 
+    * elementos
+ -->    
+    para cada necessidade uma tag especifica
+    tag h - título
+    tag p - paragrafo
+    tag a - link
+    e por ai vai
+   Deixando o html otimizado para buscadores acessibilidade e etc... 
+
+<!-- 
+ # Títulos e parágrafos
+ -> https://app.rocketseat.com.br/classroom/iniciando-o-html-e-css-2/group/elementos-de-conteudo/lesson/titulos-e-paragrafos-1
+  <p> parágrafo
+  <h..6> Títulos e Subtítulos
+  Organização de texto ...
+-->
+
+<!-- 
+ # Formatações básicas
+ -> https://app.rocketseat.com.br/classroom/iniciando-o-html-e-css-2/group/elementos-de-conteudo/lesson/formatacao-basica-de-textos
+ * strong (importância)
+ * em     (importância)
+ * mark   (relevância)
+ * s      (riscado)
+  -->
+
+<!--  
+ # Listas
+  -> https://app.rocketseat.com.br/classroom/iniciando-o-html-e-css-2/group/elementos-de-conteudo/lesson/listas-3
+ * <ol>Ordenadas</ol>
+ * <ul>Não Ordenadas</ul>
+ * <li> elementos da lista tanto ol quanto ul
+-->
+
+<!-- 
+ # Representação de códigos computado
+ ->https://app.rocketseat.com.br/classroom/iniciando-o-html-e-css-2/group/elementos-de-conteudo/lesson/representacao-de-codigo-de-computador
+ * <code> -> altera a representação da fonte!
+ * <pre>  -> aceita espaços, quebra de linhas 
+ * caracteres especiais
+   * &lt; lower than <
+   * &gt; greater than >
+  -->
+ <!-- 
+  # Hiperlink
+  -> https://app.rocketseat.com.br/classroom/iniciando-o-html-e-css-2/group/elementos-de-conteudo/lesson/hiperlink
+  * href -> atributo fundamental para
+  * url, fragmento ↓
+     -> (#+identificador qualquer) aponta para um fragmento da mesma url
+  * target ='_blank' -> abre o link em nova janela
+    * rel="noopener" -> usado junto a target ='_blank' por questões de segurança 
+       !-> https://wpsamurai.com.br/o-que-e-relnoopener-e-qual-seu-impacto/
+ -> URL |> Uniform Resource Locator 
+ -> Fragmento  uma parte específica de uma pagina de um site
+-->
+<!-- 
+# Imagens
+-> https://app.rocketseat.com.br/classroom/iniciando-o-html-e-css-2/group/elementos-de-conteudo/lesson/imagens
+*<img
+  *src
+  *alt
+  *width
+  *height 
+   >
+# atributos de altura e largura (width, height) por padrão usa-se um ou outro (para evitar distorcer a imagem)
+ -> usa-se os dois em caso especifico ...
+-->

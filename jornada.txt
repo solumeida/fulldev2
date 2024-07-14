@@ -83,7 +83,7 @@ No github com atalho .(final) abre uma interface como do vscode, onde é possív
 
     pode ter tag sem conteúdo
      elementos vazios
-      não possuem contúdo
+      não possuem conteúdo
       poderão conter atributos
       <img src="" alt=""/>
 
@@ -180,3 +180,20 @@ Formatações básicas
       # Fragmento  uma parte específica de uma pagina de um site
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/#target
+
+tag image 
+# <img src="https://source.unsplash.com/random" 
+	alt="descrição da a imagem ou quando ela não pode ser renderizada vista..>
+
+  	* Imagens
+	*<img
+	  *src    -> localização da image ./ ou https...
+	  *alt    -> texto alternativo descrição da imagem
+	  *width  -> largura da imagem
+	  *height -> altura da imagem
+	   >
+	   # atributos de altura e largura (width, height) por padrão usa-se um ou outro (para evitar distorcer a imagem)
+	    -> usa-se os dois em caso especifico ...
+
+
+      ! revistar 'primeiros passos' e Atributos 
