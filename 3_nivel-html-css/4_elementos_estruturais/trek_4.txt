@@ -1,0 +1,55 @@
+<!-- 
+ #1 Anatomia de um documento HTML
+ -> https://app.rocketseat.com.br/classroom/iniciando-o-html-e-css-2/group/elementos-estruturais/lesson/anatomia-de-um-documento-html
+* <!DOCTYPE html>  define documento tipo html 
+# <html lang="en"> root tag principal 
+  * <head> * cabeça - cabeçalho 
+    * -- configurações do próprio documento
+      * com exceção do title as informações aqui não aparece para usuário
+  -> <meta charset="UTF-8"> conjuntos de caracteres 
+  -> <title>titulo que aparece na aba do navegador</title>
+  * </head> 
+  * <body> * corpo - conteúdo da pagina html
+# </html>
+-->
+
+ <!-- 
+#2 Desenhado Uma pagina web
+-> https://app.rocketseat.com.br/classroom/iniciando-o-html-e-css-2/group/elementos-estruturais/lesson/desenhando-uma-pagina-web
+  * organizando pagina por partes
+  * header, main aside e footer
+-->
+
+<!-- 
+  #3 ↓ Tags Header, Main, Aside e Footer
+    * Tags Estruturais 
+   -> https://app.rocketseat.com.br/classroom/iniciando-o-html-e-css-2/group/elementos-estruturais/lesson/tags-header-main-aside-e-footer
+ - Elementos estruturais  - designer
+  * <header> relativo ao cabeçalho
+  * <main>   relativo ao conteúdo </main>
+  * <aside>  relativo ao conteúdo secundário que pode referenciar os demais </aside> 
+  * <footer> relativo o rodapé informações extras ...</footer>
+ -->
+
+   <!-- 
+    #4 ↓ Tags Nav, Section e Article
+     * Tags Estruturais 
+       -> https://app.rocketseat.com.br/classroom/iniciando-o-html-e-css-2/group/elementos-estruturais/lesson/tags-nav-section-e-article
+    * <nav></nav>  -> navegação -> pode conter links... pode ficar dentro do <header> ou fora...
+    * <section></section> -> serve para definir seção -> pode está dentro de um <aside> pode está dentro de um <main>
+    * <article></article> -> foi criado definir um artigo -> pode conter títulos, sections e pode está dentro de um <main>...
+    -->
+    <!-- 
+     #5 Tags Genéricas Div e Span 
+       * servem para estrutura o html, mas não possuem significado especifico!
+       ->https://app.rocketseat.com.br/classroom/iniciando-o-html-e-css-2/group/elementos-estruturais/lesson/tags-genericas-div-e-span
+      * div -> pode representar um filho um pais uma caixa ... por padrão fluxo de bloco
+      * span -> por padrão fluxo in-line 
+      |> block - um abaixo do outro
+      |> in-line - um ao lado  do outro mesma linha
+    -->
+
+     <!-- 
+     #6 Criando nosso primeiro projeto
+      -> https://app.rocketseat.com.br/classroom/iniciando-o-html-e-css-2/group/elementos-estruturais/lesson/criando-meu-primeiro-projeto
+      -->

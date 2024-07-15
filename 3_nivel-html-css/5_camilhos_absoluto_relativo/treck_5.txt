@@ -1,0 +1,14 @@
+<!-- *path
+ #1 Caminhos Absolutos e Relativos
+  -> https://app.rocketseat.com.br/classroom/iniciando-o-html-e-css-2
+  # Caminhos Absolutos
+  -> https://google.com/
+     *HTTP |> Hypertext Transfer Protocol
+     *file:/mnt/55276270-f11a-44e4-b4ab-dd9fa7bfdf62/Learn/Cursos/rocketseat/fulldev/fulldev2/html/4_elementos_estruturais/6-projeto-1
+     primeira barra -> raiz 
+  #Caminhos Relativos
+    * href="./index.html" -> diretório atual (6-projeto-1) (./) pode ser omitido href="index.html"
+      * href="./subpasta/.pag.html" ou  href="subpasta/.pag.html"
+    * pag.html -> href="../index.hml" (../) subindo um nível 
+  -->
+  
