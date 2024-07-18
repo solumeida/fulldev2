@@ -1,0 +1,19 @@
+/* 
+ #4 Cascading
+  -> https: //app.rocketseat.com.br/classroom/fundamentos-css-2/group/conhecendo-o-css/lesson/cascading
+  * Cascata
+  * Hierarquia de regras (a ultima se sobrepõe)
+
+*/
+body{
+    background-color:azure;
+}
+
+
+p{
+    color: violet;
+}
+
+.green {
+    color: green;
+}

@@ -1,0 +1,53 @@
+#1 O quê é CSS?
+-> https://app.rocketseat.com.br/classroom/fundamentos-css-2
+
+ Cascading Stylesheet
+
+
+* Folha de estilo em cascata (lugar onde se empilha estilos um após outro)
+* Propriedade e valor
+* Estilos para HTML
+* Arquivos '.css'
+
+#2 /* comentários css 
+  -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/conhecendo-o-css/lesson/comentarios-4
+
+*/
+/* 
+ #3 Anatomia
+  -> https: //app.rocketseat.com.br/classroom/fundamentos-css-2/group/conhecendo-o-css/lesson/anatomia-1
+  * Declaration
+  * Selector
+  * {} - context
+  * Properties
+  * Property value
+   
+  * declaração seletor↓{contexto↓} 
+   *                 h1{Properties: Property value}
+*/
+
+/* 
+ #4 Cascading
+  -> https: //app.rocketseat.com.br/classroom/fundamentos-css-2/group/conhecendo-o-css/lesson/cascading
+  * Cascata
+  * Hierarquia de regras (a ultima se sobrepõe)
+
+*/
+/* 
+ #5 Especificidade
+ -> https: //app.rocketseat.com.br/classroom/fundamentos-css-2/group/conhecendo-o-css/lesson/especificidade-1
+  * Cada seletor tem um peso
+  * Soma dos pesos faz a declaração ser aplicada
+  # |      seletor     | Peso |
+  * ...........................
+  * | #id              | 100  |
+  * | .class           | 010  |
+  * | element          | 001  |
+  * | element#id.class | 111  |
+
+  # <p > nesse caso  o css do elemento p será aplicado 
+  # <p class="verde" > nesse caso prevalece o seletor class
+  # <p class="verde" id="text"> nesse caso prevalece o seletor id
+  -> <p class="verde" id="text"> o seletor 'p#text.verde' tem o maior peso 111
+  ! A especificidade se sobrepõe a hierarquia de cascata!
+*/

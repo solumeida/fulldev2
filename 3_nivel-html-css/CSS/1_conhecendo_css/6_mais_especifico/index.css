@@ -1,0 +1,20 @@
+/* 
+ #6 Mais Específico
+ -> https: //app.rocketseat.com.br/classroom/fundamentos-css-2/group/conhecendo-o-css/lesson/mais-especifico
+  
+ 
+*/
+
+p#text.verde{
+    color: black;
+}
+#text{
+    color: blue;
+}
+
+.verde{
+    color: green;
+}
+p{
+    color: red;
+}

@@ -1,0 +1,32 @@
+/* 
+ #5 Especificidade
+ -> https: //app.rocketseat.com.br/classroom/fundamentos-css-2/group/conhecendo-o-css/lesson/especificidade-1
+  * Cada seletor tem um peso
+  * Soma dos pesos faz a declaração ser aplicada
+  # |      seletor     | Peso |
+  * ...........................
+  * | #id              | 100  |
+  * | .class           | 010  |
+  * | element          | 001  |
+  * | element#id.class | 111  |
+
+  # <p > nesse caso  o css do elemento p será aplicado 
+  # <p class="verde" > nesse caso prevalece o seletor class
+  # <p class="verde" id="text"> nesse caso prevalece o seletor id
+  -> <p class="verde" id="text"> o seletor 'p#text.verde' tem o maior peso 111
+  ! A especificidade se sobrepõe a hierarquia de cascata!
+*/
+
+p#text.verde{
+    color: black;
+}
+#text{
+    color: blue;
+}
+
+.verde{
+    color: green;
+}
+p{
+    color: red;
+}

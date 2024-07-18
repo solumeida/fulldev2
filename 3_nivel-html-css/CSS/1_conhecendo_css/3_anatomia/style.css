@@ -1,0 +1,35 @@
+/* 
+ # Anatomia
+  -> https: //app.rocketseat.com.br/classroom/fundamentos-css-2/group/conhecendo-o-css/lesson/anatomia-1
+  * Declaration
+  * Selector
+  * {} - context
+  * Properties
+  * Property value
+   
+  * declaração seletor↓{contexto↓} 
+   *                 h1{Properties: Property value}
+*/
+
+
+/* 
+ * declaração ->  seletor {contexto} 
+ * h1{Properties:Property value}
+ */
+div{
+    background-color: aliceblue;
+}
+body{
+    background-color: coral;
+}
+h1{
+    color: blueviolet;
+    font-size: 45px;
+    letter-spacing: 8;
+    text-transform: uppercase;
+    text-align: center;
+    }
+
+    a{
+        color: blueviolet;
+    }
