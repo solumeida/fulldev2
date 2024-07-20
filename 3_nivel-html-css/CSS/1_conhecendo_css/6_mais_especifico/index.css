@@ -1,7 +1,12 @@
 /* 
  #6 Mais Específico
+  * style
+  * !important -> aumenta o peso....
+   # dicas evite usar style e !important 
  -> https: //app.rocketseat.com.br/classroom/fundamentos-css-2/group/conhecendo-o-css/lesson/mais-especifico
   
+ * um style inserido em qualquer tag será +específico qualquer selector ou combinação!
+ #<p class="verde" id="text" style="color: rebeccapurple;"> aqui a cor do style vai prevalecer!
  
 */
 
@@ -17,4 +22,8 @@ p#text.verde{
 }
 p{
     color: red;
+}
+/* # !important -> faça o seletor prevalecer*/
+#title{
+    font-size: 12px !important;
 }

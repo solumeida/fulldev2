@@ -1,0 +1,38 @@
+/* #8 Seletores
+  -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/conhecendo-o-css/lesson/seletores-1
+ 
+ # type | element | tag
+ * #id  
+ * .class
+ * [atributo]
+-> * universal (0,0,0)
+ *
+ */
+
+p{
+    color: violet;
+}
+#text{
+    color: blue;
+}
+.pink{
+    color: pink;
+}
+
+/** aplica a todos que tiver o atributo title */
+[title]{
+    color: rgb(57, 155, 0);
+}
+
+/** aplica a todos que tiver o atributo title="t" */
+
+[title="t"] {
+    color: rgb(128, 7, 43);
+}
+
+* {
+    color: black;
+}
+
+
+  /* * Seletor universal  */

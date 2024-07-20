@@ -1,0 +1,26 @@
+/* 
+  #10 Adicionando css no html
+  -> https: //app.rocketseat.com.br/classroom/fundamentos-css-2/group/conhecendo-o-css/lesson/adicionando-css-no-html
+   # Em qualquer tag html com atribuo style
+    * <body style="background-color: antiquewhite;"> </body> 
+       !-> dessa forma vai se prevalecer sobre qualquer outro forma - deve ser evitado
+
+  # com tag <style> de forma global dentro do seu html
+  * <style>body {background-color: aqua;}h1 {color: gray;}
+     !|> Vai prevalecer sobre o css linkado - deve ser evitado
+ # css em arquivo separado do html forma + correta
+
+  * <link rel="stylesheet" href="index.css">
+
+
+  </style>
+*/
+
+
+body{
+    background-color: aliceblue;
+}
+
+a {
+    color: gray;
+}

@@ -1,0 +1,30 @@
+/* 
+#7 Valores e unidades de medidas
+-> https: //app.rocketseat.com.br/classroom/fundamentos-css-2/group/conhecendo-o-css/lesson/valores-e-unidades-de-medida
+ * cada propriedades possui valores
+ * 'property: value'
+
+*/
+
+h1{
+/**  tipo: valor */
+    color: rgb(151, 131, 18); /** color */
+    font-size: 110%; /** length */
+    letter-spacing: 2; /** number */
+    text-transform: uppercase; /** Keyword*/    
+}
+
+
+/* Keyword values 
+  ->https: //developer.mozilla.org/pt-BR/docs/Web/CSS/text-transform
+* text-transform: capitalize;
+* text-transform: uppercase;
+* text-transform: lowercase;
+* text-transform: none;
+* text-transform: full-width;
+
+Global values
+* text-transform: inherit;
+* text-transform: initial;
+* text-transform: unset; 
+*/

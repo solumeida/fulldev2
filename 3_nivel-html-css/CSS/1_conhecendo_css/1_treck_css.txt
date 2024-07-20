@@ -51,3 +51,56 @@
   -> <p class="verde" id="text"> o seletor 'p#text.verde' tem o maior peso 111
   ! A especificidade se sobrepõe a hierarquia de cascata!
 */
+/* 
+ #6 Mais Específico
+  * style
+  * !important -> aumenta o peso....
+   # dicas evite usar style e !important 
+ -> https: //app.rocketseat.com.br/classroom/fundamentos-css-2/group/conhecendo-o-css/lesson/mais-especifico
+  
+ * um style inserido em qualquer tag será +específico qualquer selector ou combinação!
+ #<p class="verde" id="text" style="color: rebeccapurple;"> aqui a cor do style vai prevalecer!
+ 
+*/
+#7 Valores e unidades de medidas
+-> https: //app.rocketseat.com.br/classroom/fundamentos-css-2/group/conhecendo-o-css/lesson/valores-e-unidades-de-medida
+ * cada propriedades possui valores
+ * 'property: value'
+
+*/
+/* #8 Seletores
+  -> https: //app.rocketseat.com.br/classroom/fundamentos-css-2/group/conhecendo-o-css/lesson/seletores-1
+ 
+ # type | element | tag
+ * #id  
+ * .class
+ * [atributo]
+-> * universal (0,0,0)
+ *
+ */
+
+ /* #9 Combinator
+  -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/conhecendo-o-css/lesson/combinators
+ * Descendent pai filho
+ * List - a, p ..{}
+ * Next sibling +
+ * Child >
+*/
+
+/* 
+  #10 Adicionando css no html
+  -> https: //app.rocketseat.com.br/classroom/fundamentos-css-2/group/conhecendo-o-css/lesson/adicionando-css-no-html
+   # Em qualquer tag html com atribuo style
+    * <body style="background-color: antiquewhite;"> </body> 
+       !-> dessa forma vai se prevalecer sobre qualquer outro forma - deve ser evitado
+
+  # com tag <style> de forma global dentro do seu html
+  * <style>body {background-color: aqua;}h1 {color: gray;}
+     !|> Vai prevalecer sobre o css linkado - deve ser evitado
+ # css em arquivo separado do html forma + correta
+
+  * <link rel="stylesheet" href="index.css">
+
+
+  </style>
+*/

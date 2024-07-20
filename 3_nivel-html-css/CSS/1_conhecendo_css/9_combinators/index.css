@@ -1,0 +1,52 @@
+/* #9 Combinator
+  -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/conhecendo-o-css/lesson/combinators
+ * Descendent pai filho
+ * List - a, p ..{}
+ * Next sibling +
+ * Child >
+*/
+
+
+/* * p {color: red;} aplicado a todos parágrafos*/
+
+/* *combinador descendente 
+ * aplicado a todos os parágrafos dentro do artigo
+ # pai filho {}
+ ↓ */
+article p{
+ color: rgb(1, 1, 80);
+}
+
+/* * List 
+ * aplicados ao elementos da lista separado por virgula
+  # span, mark{}
+*/
+
+span, mark{
+    color: rgb(6, 56, 0);
+    font-weight: 200;
+}
+
+mark{
+    background-color: bisque;
+}
+
+/* * Next sibling (proximo elemento) primeiro filho
+     
+   # h2 + p {} aplica apenas ao parágrafo depois de um h2
+   # apenas ao  elemento x que vier depois de um elemento y
+
+ h2 + p{
+    color: red;
+  }
+
+  /* * aside ul{ margin-top: 60px; }  vai aplicar a todos*/
+  
+  /* * aside > ul{ margin-top: 60px; } aplique apenas ao primeiro filho */
+  
+  aside > ul {
+      /**  apenas o 1ª filho de aside  */
+      margin-top: 38px; /** a diferença aqui ele não aplicou a ul dentro da uls.. */
+    /**  para cor neste (caso ul 'ul../ul' /ul) não funciona paro cor */
+      color: blue;
+  }
