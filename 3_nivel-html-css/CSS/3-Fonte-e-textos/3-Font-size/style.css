@@ -1,0 +1,21 @@
+/* 
+ #3 Font Size (tamanho da fonte)
+  -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/fontes-e-textos/lesson/font-size-1
+  
+  * A propriedade font-size aceite nome e várias unidades de medidas.
+    * 1em vai buscar no pai tamanho de fonte, caso não encontre ele vai subir até chegar no ele. root (16px)
+    * 1rem -> vai direto para o elemento root 
+    # Unidade de medidas relativas: em, rem %, large, medium, small ...
+    # Unidade de medidas fixas: px, cm ... 
+*/
+
+
+p{
+    /** font-size: larger; value name */
+    /*# Unidade de medidas relativas  */
+    font-size: 0.9em; /** referencia elemento pai */
+    font-size: 0.9rem;/** referencia elemento root (geralmente 16px)  */
+    font-size: 110%;
+    /*# Unidade de medidas fixas  */
+    font-size: 8px;
+}

@@ -1,0 +1,32 @@
+/* 
+ #6 Text Align, Line height 
+  -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/fontes-e-textos/lesson/text-align-line-height
+  # text-align: center;  centro    
+             *: end;     fim da linha 
+             -: left;    esquerdo
+             *: right;   direito 
+             -: start;   inicio da linha
+             *: justify; justificado
+
+  # line-height: 30px;
+              *: 120%;
+              -: 1.5em;
+              *: 1.5rem;
+              -: 1.5; mais indicado usar multiplicador
+  */
+
+p{
+    font-size: 15pt;
+    text-align: center;
+    text-align: end;
+    text-align: left;
+    text-align: right;
+    text-align: start;
+    text-align: justify;
+    line-height: 30px;
+    line-height: 120%;
+    line-height: 1.5em;
+    line-height: 1.5rem;
+    line-height: 1.3;
+
+}

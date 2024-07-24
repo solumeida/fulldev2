@@ -1,0 +1,23 @@
+/* 
+#1 BoxModel 
+ -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/box-model/lesson/box-model-1
+ * Tudo são caixas
+ -> todos os elementos HTML serão considerados uma caixa, assim como uma caixa de papelão
+ * Caixas possuem determinadas propriedades
+ -> Conteúdo, largura, altura, borda, preenchimento (espaço interno), Espaçamento (espaço externo)
+* -------------------------------------------
+* -
+* -  margin                50
+* - 
+* -  ......................................
+* -  |   border          5
+* -  |    .--------------------------------
+* -  |    .      padding                     50
+* -  |    .       .----------------------.                      
+* -  | 5  .   20  |     794  x 160       |   20         
+* -  |    .       .______________________.   
+* -  |    .              
+* -  |    .              50
+* -  |    .
+* -  |    .
+*/ 

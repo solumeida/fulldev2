@@ -1,0 +1,34 @@
+/* 
+#5 Background Shorthand
+  -> background:
+  * background-attachment    
+  - background-clip
+  * background-color
+  - background-image
+  * background-origin
+  - background-position
+  * background-repeat
+  - background-size
+  
+  #        background: url('./front.svg') #eceae5  no-repeat center right/150px;
+    -> forma curta para ↓
+           * background-image: url("./front.svg");
+           * background-color: ##eceae5;
+           * background-repeat: no-repeat;
+           * background-position: center right;
+           * background-size: 150px;  
+ 
+*/
+
+body {
+  width: 360px;
+  height: 740px;
+
+  background-image: url("./front.svg");
+  background-color: #be9c51;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: 150px;
+
+  background: url("./front.svg") #eceae5 no-repeat center right/150px;
+}

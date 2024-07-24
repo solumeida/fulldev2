@@ -1,0 +1,22 @@
+/* 
+ #4 display inline
+  -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/box-model/lesson/display-inline
+
+  * 1. Ocupa apenas o espaço do conteúdo do elemento -> mesma linha
+  * 2. Elementos poderão ficar 'em linha'
+  * 3. 'width' e 'height' não se aplicam
+  * 4. Aplicamos apenas os valores horizontais de ↓
+     # 'margin', 'padding', 'border' 
+     ? em cima e baixo não vai empurrar os elementos não vai funcionar corretamente vai se sobrepor
+  * ↓ elementos
+    -> '<a>. <span>, <strong>, <em>
+ */
+
+ span{
+    border: solid;
+    border-color: aqua;
+    margin: 8px;/** apenas horizontal -> nem em baixo nem em cima  */
+    padding: 20px; /** apenas horizontal -> nem em baixo nem em cima  */
+    width: 200px; /** não se aplica, não tem efeito */
+    height: 200px;/** não se aplica, não tem efeito */
+ }

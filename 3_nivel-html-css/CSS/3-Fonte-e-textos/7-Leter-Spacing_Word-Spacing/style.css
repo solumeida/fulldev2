@@ -1,0 +1,27 @@
+/* 
+#7 Letter Spacing, Word Spacing
+-> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/fontes-e-textos/lesson/letter-spacing-word-spacing
+ 
+ # letter-spacing: 0.3px
+                *: 0.05cm;
+                -: 0.2em;
+                *: 0.1rem;
+                -: 0.2;
+ #   word-spacing: 5px;
+                *: 1em;
+                -: 0.5rem;
+                *: 1;
+*/
+
+p{
+    /* letter-spacing: 0.3px;
+    letter-spacing: 0.05cm;
+    letter-spacing: 0.2em;
+    letter-spacing: 0.1rem;
+    letter-spacing: 0.2; */
+    word-spacing: 5px;
+    word-spacing: 1em;
+    word-spacing: 0.5rem;
+    word-spacing: 1;
+
+}

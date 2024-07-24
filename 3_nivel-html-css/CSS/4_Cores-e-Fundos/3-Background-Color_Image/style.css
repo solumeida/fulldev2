@@ -1,0 +1,32 @@
+/* 
+#3 Background: Color, Imagem
+ -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/cores-e-fundos/lesson/background-color-background-image-background-repeat
+ # background-color : bisque;                   
+                   -: rgb(202, 125, 30);
+                   -: #f1e5d521;
+ # background-image: url("./pc.jpg");
+ # background-repeat: repeat-x;    
+                   *: repeat-y;
+                   -: no-repeat;
+
+ */
+
+ body{
+     /* background-color: bisque;
+     background-color: rgb(202, 125, 30);
+     background-color: #f1e5d521; */
+     /* background-image: url("https://app.rocketseat.com.br/_next/image?url=%2Fassets%2Flogos%2Frocketseat-logo.svg&w=256&q=75"); */
+ }
+
+ div{
+    margin: auto;
+    width: 250px;
+    height: 350px;
+    background-color: rgb(171, 173, 175);
+    /* background-image: url("https://app.rocketseat.com.br/_next/image?url=%2Fassets%2Flogos%2Frocketseat-logo.svg&w=256&q=75"); */
+    background-image: url("./pc.jpg");
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat;
+
+ }

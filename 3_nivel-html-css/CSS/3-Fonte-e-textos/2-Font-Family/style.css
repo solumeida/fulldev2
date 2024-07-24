@@ -1,0 +1,15 @@
+/*
+#2 Font Family
+  -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/fontes-e-textos/lesson/font-family-1
+ */
+
+
+ p{
+   color: blue;
+    /** genéricos */
+    /* font-family: sans-serif; */
+    /* font-family: serif; */
+    /* font-family: monospace; */
+
+    font-family: Georgia, 'Times New Roman', Times;
+ }

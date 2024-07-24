@@ -1,0 +1,42 @@
+/* 
+ #5 Border 
+  -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/box-model/lesson/border-1
+  * border: style  color width
+ * ↓ borda: estilo cor   largura            
+ -> border: dotted red   1px  -> forma curta
+# largura da borda: top right bottom left
+    * ↓ border-width: 1px 2px 3px 4px; 
+        * Forma curta para ↓
+        * border-top-width: 1;
+        * border-bottom-width: 2;
+        * border-right-width: 3;
+        * border-left-width: 4;
+ ? esse principio é aplicável a todas as demais...
+*/
+
+.border{
+      
+    /* border-style: dotted solid  double dashed; */
+    
+/** borda inferior: estilo   cor  largura */
+     border-bottom: double  red  3px;
+    /*     
+   -> largura da borda: top right bottom left
+        * border-width: 1px 2px 3px 4px;
+      #   ↓ forma curta 
+      * border-top-width: 1;  'largura da borda superior'
+      * border-bottom-width: 2;
+      * border-right-width: 3;
+      * border-left-width: 4; 
+    */
+
+    /* border-color: red green blue purple; */
+    
+    
+}
+a{
+ color: antiquewhite;
+}
+h1{
+  color: blue;
+}

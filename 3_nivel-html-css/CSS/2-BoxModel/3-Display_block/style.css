@@ -1,0 +1,19 @@
+/* 
+ #3 display: block
+    -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/box-model/lesson/display-block
+  * 1. ocupa toda a linha, com um 'bloco
+  * 2. 'width' e 'height' são aplicáveis
+  * 3. 'padding', 'margin', 'border' funciona por completo.
+  * > ↓ elementos
+     -> ' <div>,  <main>, <header>, <section>, <p>, <h1..6>
+*/
+
+div{
+    border: solid;
+    border-color: antiquewhite;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    /* margin: auto; */
+    margin: 20px;
+}

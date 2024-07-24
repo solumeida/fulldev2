@@ -1,0 +1,26 @@
+/*
+ #9 Box Sizing 
+  ->https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/box-model/lesson/box-sizing-1
+   * Box Sizing  comportamento padrão (box-sizing: content-box) altera o tamanho da caixa
+   -> box-sizing: border-box; não altera o tamanho da caixa
+  */
+
+
+  div, span {
+    width: 200px;
+    height: 100px;
+    border: solid 0.5px rgb(187, 212, 185);
+}
+
+.padding {
+    /** box-sizing: content-box; comportamento padrão não respeita a caixa.. */
+    box-sizing: border-box; /** aplica o padding sem modificar o tamanho da caixa */
+    padding: 50px
+     /**     top right bottom left */
+    /** padding-inline: 12px; horizontal */
+   /**  padding-block: 20px; vertical  */
+/* padding-left: 20px; */
+/* padding-right:  20px; */
+/* padding-top:  20px; */
+/* padding-bottom: 20px; */
+}

@@ -1,0 +1,27 @@
+/* 
+ #6 Width e Height
+  -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/box-model/lesson/width-e-height
+
+      * width & hight  
+        !não aplicável a elementos inline
+    # over flow ao se aplicar largura/altura menor que o conteúdo ->   (o conteúdo vai transbordar)  
+    -> geralmente Evitamos definir a altura das caixas 
+    # ao definir min- e max- 
+    * ↓ vai prevalecer sobre width & hight mesmo definido por ultimo 
+
+ */
+
+ div,span{
+    border: solid red 1px; /** aplicou tanto no block quanto no inline  */
+    /** largura mínima */
+    /* min-width: 250px; */
+    /** largura máxima */
+    /* max-width: 350px;  */
+    /*! height: 120px;  geralmente evitamos definir altura */
+    /** min-height: 100; altura mínima */
+    /** max-height: 150; altura máxima */
+    /*min-width: 120px;
+    max-width: 220px; */
+    width: 600px;
+     
+ }

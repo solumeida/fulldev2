@@ -1,0 +1,103 @@
+#1 Fundamentos
+ -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/fontes-e-textos/lesson/fundamentos
+
+#2 Font Family
+  -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/fontes-e-textos/lesson/font-family-1
+ 
+#3 Font Size (tamanho da fonte)
+  -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/fontes-e-textos/lesson/font-size-1
+  
+  * A propriedade font-size aceite nome e várias unidades de medidas.
+    * 1em vai buscar no pai tamanho de fonte, caso não encontre ele vai subir até chegar no ele. root (16px)
+    - 1rem -> vai direto para o elemento root 
+    # Unidade de medidas relativas: em, rem %, large, medium, small ...
+    - Unidade de medidas fixas: px, cm ... 
+
+#4 Font Style, Font Weight
+   ->https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/fontes-e-textos/lesson/font-style-font-weight
+ # font-style: normal; "padrão"
+            *: italic;
+            -: oblique;
+            *: oblique 40deg;
+            ! resumindo italic/não-italic
+
+  # font-weight: normal; "padrão"
+             * : bold;
+             - : 100-900; intensidade do bold depende da fonte!
+             * : 100; =normal dependendo da fonte qualquer valor abaixo de 900 é normal 
+             - : 900; dependendo da fonte 900 = bold
+     ! existe fontes que não possuem bold  
+
+#5 Color, Text-Transform, Text-Decoration
+-> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/fontes-e-textos/lesson/color-text-transform-text-decoration
+ * color
+ - text-transform: nome; valor default 
+                #: Keyword values;
+                *: lowercase; tudo em minúsculo - caixa baixa
+                -: uppercase; tudo em maiúsculo - caixa alta
+                *: capitalize; primeira letra em maiúsculo 
+                -: full-width; não conseguir ver o efeito..
+                #: Global values
+                *: inherit;
+                -: initial;
+                *: unset;   
+ * text-decoration
+      #-decoration-line: underline; linha em abaixo
+                      -: overline;  linha em cima
+                      *: line-through; riscado
+                      -: none; remove a linha
+    # text-decoration: overline red double 3px;  
+        ! forma curta para ↓
+      -> decoração da linha 
+    * text-decoration-line: overline; localização 
+    * text-decoration-color: red;  cor  
+    * text-decoration-style: double; tipo  
+    * text-decoration-thickness: 3px; tamanho        
+
+#6 Text Align, Line height 
+  -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/fontes-e-textos/lesson/text-align-line-height
+  # text-align: center;  centro    
+             *: end;     fim da linha 
+             -: left;    esquerdo
+             *: right;   direito 
+             -: start;   inicio da linha
+             *: justify; justificado
+
+  # line-height: 30px;
+              *: 120%;
+              -: 1.5em;
+              *: 1.5rem;
+              -: 1.5; mais indicado usar multiplicador
+
+#7 Letter Spacing, Word Spacing
+-> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/fontes-e-textos/lesson/letter-spacing-word-spacing
+ 
+ # letter-spacing: 0.3px
+                *: 0.05cm;
+                -: 0.2em;
+                *: 0.1rem;
+                -: 0.2;
+ #   word-spacing: 5px;
+                *: 1em;
+                -: 0.5rem;
+                *: 1;
+
+8 Shorthand Font 
+->https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/fontes-e-textos/lesson/shorthand-font
+
+ # font (shorthand) 
+   ! font: (font-size e font-family) duas propriedade obrigatórias...
+ * font-style, font-variant:   italic small-caps
+ * font-weight, font-stretch, 
+ * font-size, line-height, 
+ * font-style, 
+ 
+ -> font:italic small-caps 16px/1.6 sans-serif bold condensed;  
+   #  forma reduzida ↓
+               - font-size: 16px; 
+               * line-height: 1.6; 
+               - font-family: sans-serif; 
+               * font-style: italic; 
+               - font-variant: small-caps;
+               * font-weight: bold; 
+               - font-stretch: condensed; 

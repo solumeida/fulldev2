@@ -1,0 +1,25 @@
+/* 
+#4 Font Style, Font Weight
+   ->https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/fontes-e-textos/lesson/font-style-font-weight
+ # font-style: normal; "padrão"
+            *: italic;
+            *: oblique;
+            *: oblique 40deg;
+            ! resumindo italic/não-italic
+
+  # font-weight: normal; "padrão"
+             * : bold;
+             * : 100-900; intensidade do bold depende da fonte!
+             * : 100; =normal dependendo da fonte qualquer valor abaixo de 900 é normal 
+             * : 900; dependendo da fonte 900 = bold
+     ! existe fontes que não possuem bold    
+
+*/
+
+p{
+    font-style: normal;  /** resumindo italic/não-italic*/    
+    font-weight: normal; 
+    font-weight: bold; 
+    font-weight: 100; /** =normal dependendo da fonte qualquer valor abaixo de 900 é normal  */
+    font-weight: 900; /** dependendo da fonte 900 = bold */
+}

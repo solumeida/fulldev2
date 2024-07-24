@@ -1,0 +1,61 @@
+/* 
+#5 Color, Text-Transform, Text-Decoration
+-> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/fontes-e-textos/lesson/color-text-transform-text-decoration
+ * color
+ - text-transform: nome; valor default 
+                #: Keyword values;
+                *: lowercase; tudo em minúsculo - caixa baixa
+                -: uppercase; tudo em maiúsculo - caixa alta
+                *: capitalize; primeira letra em maiúsculo 
+                -: full-width; não conseguir ver o efeito..
+                #: Global values
+                *: inherit;
+                -: initial;
+                *: unset;   
+ * text-decoration
+      #-decoration-line: underline; linha em abaixo
+                      -: overline;  linha em cima
+                      *: line-through; riscado
+                      -: none; remove a linha
+    # text-decoration: overline red double 3px;  
+        ! forma curta para ↓
+      -> decoração da linha 
+    * text-decoration-line: overline; localização 
+    * text-decoration-color: red;  cor  
+    * text-decoration-style: double; tipo  
+    * text-decoration-thickness: 3px; tamanho 
+                       
+
+*/
+
+p {
+  text-transform: none; /** valor default */
+  /* Keyword values */
+  /*
+  text-transform: capitalize;
+  text-transform: uppercase;
+  text-transform: lowercase; */
+  text-transform: full-width;
+  /* Global values */
+text-transform: inherit;
+text-transform: initial;
+text-transform: unset;
+
+}
+mark {
+  color: red;
+  text-transform: uppercase;
+}
+
+a {
+    
+    text-decoration: overline red double 3px; 
+    /** forma curta para ↓
+     ** text-decoration-line: overline; 
+     **text-decoration-color: red;  
+     **text-decoration-style: double; 
+     **text-decoration-thickness: 3px;
+     */
+     /* text-decoration-line: none; */
+     
+}

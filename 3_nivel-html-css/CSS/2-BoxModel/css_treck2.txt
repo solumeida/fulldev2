@@ -1,0 +1,94 @@
+#1 BoxModel 
+ -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/box-model/lesson/box-model-1
+
+  * Tudo são caixas
+   -> todos os elementos HTML serão considerados uma caixa, assim como uma caixa de papelão
+
+   * Caixas possuem determinadas propriedades
+    -> Conteúdo, largura, altura, borda, preenchimento (espaço interno), Espaçamento (espaço externo)
+
+--------------------------------------
+margin          50
+ ......................................
+ |   border          5
+ |    .--------------------------------
+ |    .     padding         50
+ |    .    .----------------------.                    
+ | 5  . 20 |     794  x 160       | 20         
+ |    .    .______________________.
+ |    .               50
+ |    .
+
+#2 Display -> apresentação 
+  -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/box-model/lesson/display
+
+  # html - flow -> fluxo
+   # F - fluxo padrão do html
+   * l - bloc   -> linha inteira um abaixo do outro
+   * o - inline -> mesma linha como um caractere um ao lado do outro
+   # w - default html flow
+   * como caixa se comporta em relação a outra.. 
+
+ #3 display: block
+    -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/box-model/lesson/display-block
+  * 1. ocupa toda a linha, com um 'bloco
+  * 2. 'width' e 'height' são aplicáveis
+  * 3. 'padding', 'margin', 'border' funciona por completo.
+  * > ↓ elementos
+     -> ' <div>,  <main>, <header>, <section>, <p>, <h1..6>
+ 
+ #4 display inline
+  -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/box-model/lesson/display-inline
+
+  * 1. Ocupa apenas o espaço do conteúdo do elemento -> mesma linha
+  * 2. Elementos poderão ficar 'em linha'
+  * 3. 'width' e 'height' não se aplicam
+  * 4. Aplicamos apenas os valores horizontais de ↓
+     # 'margin', 'padding', 'border' 
+     ? em cima e baixo não vai empurrar os elementos não vai funcionar corretamente vai se sobrepor
+  * ↓ elementos
+    -> '<a>. <span>, <strong>, <em>
+
+ #5 Border 
+  -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/box-model/lesson/border-1
+  * border: style  color width
+ * ↓ borda: estilo cor   largura            
+ -> border: dotted red   1px  -> forma curta
+# largura da borda: top right bottom left
+    * ↓ border-width: 1px 2px 3px 4px; 
+        * Forma curta para ↓
+        * border-top-width: 1;
+        * border-bottom-width: 2;
+        * border-right-width: 3;
+        * border-left-width: 4;
+ ? esse principio é aplicável a todas as demais formas
+
+ #6 Width e Height
+  -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/box-model/lesson/width-e-height
+
+      * width & hight  
+        !não aplicável a elementos inline
+    # over flow ao se aplicar largura/altura menor que o conteúdo ->   (o conteúdo vai transbordar)  
+    -> geralmente Evitamos definir a altura das caixas 
+    # ao definir min- e max- 
+    * ↓ vai prevalecer sobre width & hight mesmo definido por ultimo 
+
+#7 Margin
+ -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/box-model/lesson/margin-1
+  # margin 
+    * inline: -> right e left   (horizontal)
+    *  block: -> top right bottom left
+
+    * margin: 30px 12px; Horizontal e vertical
+    ->         top   right  bottom  left |> sentido horário
+    * margin: 50px  12px   24px    55px ; individualmente forma curta
+   * margin collapsing não vai somar as margens bottom's dos block 
+    * as margens right e left vão se somar nos elementos inline...
+
+
+ #8 Padding -> preenchimento interno
+  -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/box-model/lesson/padding-1
+  # padding -> aplicável a elementos inline
+  # porém padding vertical vai transbordar sobre outros elementos 
+
+

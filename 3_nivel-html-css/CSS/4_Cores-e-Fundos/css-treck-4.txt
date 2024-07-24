@@ -1,0 +1,63 @@
+ #1 Cores e Fundo - Visão geral
+  -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/cores-e-fundos/lesson/cores-e-fundos
+  # color 
+    * named - blue
+    - hex   - #fc0
+
+  # background
+      * color 
+      - image
+      * repeat
+      - positon
+      * size
+
+#2 Cores Nomes e Hexadecimal 
+ -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/cores-e-fundos/lesson/nome-de-cores-e-hexadecimal
+ # RGB Hexadecimal (0 - f)
+ - #f02 -RGB
+ - #a76262 #RRGGBB
+ - rgb(202, 125, 30)
+ - #F09A     RGBA     -> A  canal alpha transparência
+ - #ff0099cc RRGGBBAA -> AA canal alpha transparência
+
+#3 Background: Color, Imagem
+ -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/cores-e-fundos/lesson/background-color-background-image-background-repeat
+ # background-color : bisque;                   
+                   -: rgb(202, 125, 30);
+                   -: #f1e5d521;
+ # background-image: url("./pc.jpg");
+ # background-repeat: repeat-x;    
+                   *: repeat-y;
+                   -: no-repeat;
+
+#4 Background Position e Size
+ -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/cores-e-fundos/lesson/background-position-background-size
+    - background-image: url("./rocketseat-logo.svg");
+    * background-repeat: no-repeat;
+    - background-position-x: center;
+    * background-position-x: left;
+    - background-position-x: right;
+    * background-position-y: center;
+    - background-position-y: bottom;
+    - background-position-y: top;
+    * background-position: center;
+    - background-size: contain;
+
+#5 Background Shorthand
+  -> background:
+  * background-attachment    
+  - background-clip
+  * background-color
+  - background-image
+  * background-origin
+  - background-position
+  * background-repeat
+  - background-size
+  
+  #        background: url('./front.svg') #eceae5  no-repeat center right/150px;
+    -> forma curta para ↓
+           * background-image: url("./front.svg");
+           * background-color: ##eceae5;
+           * background-repeat: no-repeat;
+           * background-position: center right;
+           * background-size: 150px; 

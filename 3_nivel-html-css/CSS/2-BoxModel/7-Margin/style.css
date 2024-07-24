@@ -1,0 +1,39 @@
+/* 
+#7 Margin
+ -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/box-model/lesson/margin-1
+  # margin 
+    * inline: -> right e left   (horizontal)
+    *  block: -> top right bottom left
+
+    * margin: 30px 12px; Horizontal e vertical
+    ->         top   right  bottom  left |> sentido horário
+    * margin: 50px  12px   24px    55px ; individualmente forma curta
+   * margin collapsing não vai somar as margens bottom's dos block 
+    * as margens right e left vão se somar nos elementos inline...
+
+ */
+
+div,span {
+  color: red;
+  border: solid 0.5px gray;
+  width: 60%;
+ 
+}
+
+.margin {
+  /**         top   right  bottom  left  */
+  /** margin: 50px  12px   24px    55px ; individualmente forma curta*/
+  /** margin-top:    30px; margem superior */
+  /** margin-bottom: 15px; margem inferior */
+  /** margin-left:   5px;  margem esquerda */
+  /** margin-right:  10px; margem direita */
+  /** margin: 30px;  todos os lados*/
+  /** margin: 30px 12px; top/bottom left/right Horizontal e vertical*/
+
+  /* margin: 50px  12px   24px    55px ; */
+ /* margin: auto;   */
+ /** somente na horizontal e para elementos em block */
+
+ margin: 30px; /** margin collapsing não vai somar as margens bottom's dos block ... */
+   
+}

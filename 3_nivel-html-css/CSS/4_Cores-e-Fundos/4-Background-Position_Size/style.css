@@ -1,0 +1,32 @@
+/* 
+#4 Background Position e Size
+ -> https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/cores-e-fundos/lesson/background-position-background-size
+    - background-image: url("./rocketseat-logo.svg");
+    * background-repeat: no-repeat;
+    - background-position-x: center;
+    * background-position-x: left;
+    - background-position-x: right;
+    * background-position-y: center;
+    - background-position-y: bottom;
+    - background-position-y: top;
+    * background-position: center;
+    - background-size: contain;
+
+ */
+
+body {
+  width: 360px;
+  height: 740px;
+  background-color: rgb(201, 206, 206);
+  background-image: url("./rocketseat-logo.svg");
+
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-x: left;
+  background-position-x: right;
+  background-position-y: center;
+  background-position-y: bottom;
+  background-position-y: top;
+  background-position: center;
+  background-size: contain;
+}

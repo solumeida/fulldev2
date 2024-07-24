@@ -1,0 +1,47 @@
+/*
+#8 Shorthand Font 
+->https://app.rocketseat.com.br/classroom/fundamentos-css-2/group/fontes-e-textos/lesson/shorthand-font
+
+ # font (shorthand) 
+   ! font: (font-size e font-family) duas propriedade obrigatórias...
+ * font-style, font-variant:   italic small-caps
+ * font-weight, font-stretch, 
+ * font-size, line-height, 
+ * font-style, 
+ 
+ -> font:italic small-caps 16px/1.6 sans-serif bold condensed;  
+   #  forma reduzida ↓
+               - font-size: 16px; 
+               * line-height: 1.6; 
+               - font-family: sans-serif; 
+               * font-style: italic; 
+               - font-variant: small-caps;
+               * font-weight: bold; 
+               - font-stretch: condensed;  
+
+*/
+
+a{
+    text-decoration-line: none;
+    color:rgb(11, 1, 49);
+}
+
+p{
+  /*! font (shorthand)  font-size e font-family são obrigatórias*/
+
+  /**  font-size/line-height  */
+ font:italic small-caps 16px/1.6 sans-serif bold condensed;  
+ /* * forma reduzida ↓
+     - font-size: 16px; 
+     * line-height: 1.6; 
+     - font-family: sans-serif; 
+     * font-style: italic; 
+     - font-variant: small-caps;
+     * font-weight: bold; 
+     - font-stretch: condensed;  
+*/
+  
+
+ 
+
+}
