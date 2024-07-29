@@ -1,0 +1,54 @@
+/* 
+ # Pseudo Classe e Elemento
+  -> https://app.rocketseat.com.br/classroom/avancando-no-html-e-css-2/group/layouts-e-evolucao/lesson/pseudo-classes-e-pseudo-elements
+
+
+                        --> hover
+  
+       --> pseudo-class    -> functional  -> not() has()
+                      
+                       --> structural
+                                     
+  # Seletores CSS II
+
+                        - first-letter
+     --> pseudo-element  
+                        - before / after (criar elemento)
+*/
+
+ /** root tag ou melhor seletor raiz*/
+/* :root{background-color: blueviolet;} */
+
+div {width:40px;height:40px;border:solid;text-align:center;line-height:250%;margin:4px;}
+
+/** o que não tiver faça */
+div:not(.not){background-color: azure;}
+
+div:hover{background-color: lightcoral;}
+/** onde tiver faça*/
+section:has(div:hover){ border: 2px solid red; }
+ 
+/** aplique ao  filho nºx     atente-se ao seletor*/
+div:nth-child(3){
+border: 2px dotted blue;
+}
+
+
+/** criar antes */
+div::before{
+   content: "nº"; 
+   text-decoration: underline;
+   color: brown;
+}
+div::after{
+   content: "!"; 
+   text-decoration: underline;
+   color: blue;
+}
+
+
+/** :: ou : | pseudo-element1ª letra */
+div::first-letter{
+   font-size: 14pt;
+}
+

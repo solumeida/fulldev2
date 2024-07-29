@@ -1,0 +1,44 @@
+/* 
+ # Introdução
+  -> https://app.rocketseat.com.br/classroom/avancando-no-html-e-css-2/group/css-flexbox/lesson/introducao-79
+
+ - container         ↓  ----------- ----> concepts 
+       -       ↓                    ----- direction   
+                                    ----- alignment & spaces
+            # Flexbox 
+
+        -      ↑  
+ - children   
+
+               
+ # concepts -------
+               - container
+         - flex 
+               -  item
+               
+               - main  ------- start, end
+         - axis
+               - cross ------- start, end
+          
+         - sizing 
+
+*/
+
+.container {
+  border: dashed 1px;
+  display: flex; /** quebra o normal flow (eixo principal/eixo crusado) */
+  /*-  flex-direction: default row */
+  flex-direction: column; 
+  /* 
+    - row    in-line
+    - column block 
+    -    row-reverse linha da direita pra esquerda
+    - column-reverse coluna de baixo pra cima 
+  */
+}
+.item {
+  --hue: 0;
+  /* border: solid #fff 0.5px; */
+  text-align: center;
+  background-color: hsl(var(--hue), 100%, 70%);
+}

@@ -1,0 +1,86 @@
+/* 
+ #2 Position (static por default)
+  -> https://app.rocketseat.com.br/classroom/avancando-no-html-e-css-2/group/layouts-e-evolucao/lesson/position-2
+  
+  
+#      Position
+*        |A|    static
+-        |T|    relative -----(relativo a si mesmo, normal flow, stacking context)
+*        |I|    absolute -----(fica em um ↓ determinado local da tela, !normal flow, stacking context)
+-        |V|                    relativo ao containing block próximo ou inicial bloco onde ele está contido
+*        |A|    fixed ----(fixo na tela ----> relativo ao initial containing block)
+-               sticky "grudar" ----(relativo e fixo, normal flow, stacking context) 
+-         ↓                   relativo ao elemento pai que tenha mecanismo de scroll "overflow"
+#       Props         
+-              top, bottom
+*              left, right
+-              inset      
+*              z-index   
+
+*/
+div{
+  background-color: black;
+ width: 60px;
+ height: 60px;
+ margin-bottom: 5px;
+
+}
+ #scroll{
+  position: relative; 
+  overflow: scroll;
+   height: 120px;
+   z-index: auto;
+ }
+
+
+section{
+  position: relative; /** agora containing block  do position absolute*/
+  border: 0.5px solid;
+  
+}
+
+.position1{
+ background-color: red;
+ position: relative; 
+ 
+ inset: 20px 30px 15px 70px; /** top: 20px; left: 20px; */
+
+}
+
+.position2{
+  background-color: rgb(238, 255, 4);
+ /* position: relative; top: 20px; left: 20px; */
+  position: absolute;
+   top: 20px; 
+   right:  20px;
+   /* bottom: 20px; */
+   z-index: -1;
+
+}
+
+
+.position3{
+  background-color: #f7bf07;
+  position: fixed;  /** aqui ficou relativo a tela , mesmo movendo o scroll ele fica fixo  */
+  top: 85%;
+  right: 50%;
+  z-index: auto;
+}
+
+.position4{
+  background-color: gray;
+  position: sticky;
+  top: 20px;
+  right: 20px;
+  z-index: auto;
+  
+}
+
+
+
+
+.center{
+  color: blue;
+  position: absolute;
+  margin: center center;
+}

@@ -1,0 +1,26 @@
+/* 
+ # Introdução
+  -> https://app.rocketseat.com.br/classroom/avancando-no-html-e-css-2/group/css-flexbox/lesson/introducao-79
+
+ - container         ↓  ----------- ----> concepts 
+       -       ↓                    ----- direction   
+                                    ----- alignment & spaces
+            # Flexbox 
+
+        -      ↑  
+ - children   
+
+
+
+
+*/
+
+.container{
+ border: dashed 0.5px;
+}
+.item{
+ --hue:0;
+ /* border: solid #fff 0.5px; */
+ text-align: center;
+ background-color: hsl(var(--hue), 100%, 70%);
+}

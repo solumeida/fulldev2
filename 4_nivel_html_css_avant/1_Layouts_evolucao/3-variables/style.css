@@ -1,0 +1,33 @@
+/* 
+ #3 Variáveis 
+  -> https://app.rocketseat.com.br/classroom/avancando-no-html-e-css-2/group/layouts-e-evolucao/lesson/variaveis-2
+
+                                      - qualquer valor 
+                 - Criação     -->(   
+                                      - nome (sem espaço, sem carc. especiais, sem iniciar com números) 
+
+  -# Variáveis ----> Uso    ----> var()
+
+                 - Escopo ( do pai)
+
+
+*/
+
+:root{
+ /** pode ser usado em todo documento */
+ --bg-color1:lightblue; 
+
+}
+
+body{
+ --bg-color:lightgreen;  /** sobre escrita escopo local*/ 
+ background-color: var(--bg-color1);
+
+}
+
+div{
+ height: 80px;
+ width: 80px;
+ /* border: solid 0.25px; */
+ background-color: var(--bg-color);  /** os escopo aqui é do body, ou seja do pais */
+}

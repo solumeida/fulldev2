@@ -1,0 +1,44 @@
+/* 
+ # Justify Content
+  -> https://app.rocketseat.com.br/classroom/avancando-no-html-e-css-2/group/css-flexbox/lesson/justify-content
+
+ - container         ↓  ----------- ----> concepts 
+       -       ↓                    ----- direction   
+                                    ----- alignment & spaces
+            # Flexbox 
+
+        -      ↑  
+ - children   
+
+               
+ # concepts -------
+               - container
+         - flex 
+               -  item
+               
+               - main  ------- start, end
+         - axis
+               - cross ------- start, end
+          
+         - sizing 
+
+
+    # align-items
+
+*/
+
+.container {
+  border: dashed 1px;
+  height: 40vh; /** para perceber algumas coisa flex-direction column */
+  display: flex; /** quebra o normal flow (eixo principal/eixo crusado) */
+  /*-  display: flex; |> -> flex-direction:  row por default*/
+  flex-direction: column; 
+  justify-content: space-between;
+  
+}
+.item {
+  --hue: 0;
+  /* border: solid #fff 0.5px; */
+  text-align: center;
+  background-color: hsl(var(--hue), 100%, 70%);
+}

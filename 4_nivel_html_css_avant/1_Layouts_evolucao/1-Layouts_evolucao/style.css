@@ -1,0 +1,49 @@
+/* 
+ 
+         *↓ Normal Flow  (block, inline)
+
+# Evolução ↓      -> Tabelas  
+   
+          * Table  display: table
+                   
+                  * elementos  (table, tr, td)
+
+                       *  sem tablea
+          -> Tableless  float 
+                       * clear: both
+# ---- CSS moderno ---------
+--# Flexbox  
+          * container (alinhamentos, tamanho flexível) elementos internos .. 
+-># Grid
+
+
+*/
+
+/* table{ border: rgb(248, 252, 231) solid 0.5px;} */
+td{
+ border: blue solid 0.25px;
+}
+.left{
+ float: left; /** flutuando a esquerda  */
+ 
+}
+.right{
+ float: right;
+}
+.both{
+ clear: both;
+}
+[class]{border: solid pink 0.3px;}
+
+#flex{
+ display: flex;   /** horizontal */
+ /** justify-content: center; */
+ /**  flex-direction: column; vertical */
+}
+/* span{border: solid grey 0.25px;} */
+
+#grid{
+ /** pode ter elementos na horizontal e vertical */ 
+ display: grid;
+ grid-template-columns: 20px 20px;
+}
