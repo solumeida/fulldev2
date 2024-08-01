@@ -1,0 +1,82 @@
+/* 
+ # Justify Content
+  -> https://app.rocketseat.com.br/classroom/avancando-no-html-e-css-2/group/css-flexbox/lesson/gap-e-margin
+
+ - container         ↓  ----------- ----> concepts 
+       -       ↓                    ----- direction   
+                                    ----- alignment & spaces
+            # Flexbox 
+
+        -      ↑  
+ - children   
+
+               
+ # concepts -------
+               - container
+         - flex 
+               -  item
+               
+               - main  ------- start, end
+         - axis
+               - cross ------- start, end
+          
+         - sizing 
+
+
+    # multi-line
+            -|--------- Tamanho do container
+
+      - flex-wrap     -> nova linha = novo container 
+
+            -|--------- valores
+
+
+     - align-content -> 
+           
+
+
+*/
+
+.container {
+  border: dashed 1px;
+  /* -flex-direction: column; default */
+  display: flex; /* - é default flex-wrap: nowrap; */
+  /*- gap: 20px;  */
+
+  /** nowrap vai manter dentro do tamanho da caixa... na mesma linha  */
+  /** wrap  cada um vai manter sua largura quando e vai quebra a linha  */
+  flex-wrap: nowrap;
+  
+  /* flex-direction: column; */   
+  /* height: 40vh;    */
+  /* align-items:  center;  */
+  
+}
+
+
+/* - continue...2:40
+->  https://app.rocketseat.com.br/classroom/avancando-no-html-e-css-2/group/css-flexbox/lesson/multi-line  */
+.container1 {
+  border: dashed 1px;
+  /* -flex-direction: column; default */
+  display: flex; /* - é default flex-wrap: nowrap; */
+  /*- gap: 20px;  */
+
+  /** nowrap vai manter dentro do tamanho da caixa... na mesma linha  */
+  /** wrap  cada um vai manter sua largura quando e vai quebra a linha  */
+  height: 25vh;   
+  align-items:  center; 
+  flex-wrap: wrap;
+  
+  /* flex-direction: column; */   
+  
+}
+.item {
+  --hue: 0;
+  /* border: solid #fff 0.5px; */
+  text-align: center;
+  background-color: hsl(var(--hue), 100%, 70%);
+  width: 100px;
+
+  /* height: 20px; */
+}

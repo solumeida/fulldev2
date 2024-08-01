@@ -1,0 +1,34 @@
+- Como Usar o Obsidian do Zero - Guia OBSIDIAN para INICIANTES 🚀
+->  https://www.youtube.com/watch?v=64qkBzaGnIw
+
+- 🏆 Top 5 Melhores Plugins para Obsidian | Obsidian Plugins
+-> https://www.youtube.com/watch?v=y4cVQgmEMqs
+
+ # obsidian plugins
+-> https://obsidian.md/plugins
+
+- *⚡️ 87 DICAS OBSIDIAN: Do Iniciante ao Avançado | Tutorial Obsidian
+ 
+-> https://www.youtube.com/watch?v=jjoebK_Th2w
+
+# Tutorial Obsidian 💻 Como usar o Obsidian do zero?
+-> https://www.youtube.com/watch?v=2ZhMdlcWKR8
+
+Obsidian para devs: configurando daily notes, calendar, git backup excalidraw
+ -> https://www.youtube.com/watch?v=ofy5N6Ef8ks
+ - https://youtu.be/ofy5N6Ef8ks?t=386
+
+ 
+EXCALIDRAW [PARTE 1] - Funções básicas para desenhar no Obsidian
+
+ https://www.youtube.com/watch?v=I5rzfLYsmRQ
+
+
+ /var/lib/flatpak
+
+
+Virtualização no Linux é com o Virt-Manager! Qemu/Kvm pelo Libvirt - Tutorial Fácil!
+
+ -> https://www.youtube.com/watch?v=kSpA0DyyGhs
+
+ 
